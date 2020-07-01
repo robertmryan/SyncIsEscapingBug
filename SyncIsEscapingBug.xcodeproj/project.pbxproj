@@ -11,6 +11,7 @@
 		8375D77424AD12A700E4FC80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8375D77324AD12A700E4FC80 /* ViewController.swift */; };
 		8375D77624AD12A700E4FC80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8375D77524AD12A700E4FC80 /* Assets.xcassets */; };
 		8375D77924AD12A700E4FC80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8375D77724AD12A700E4FC80 /* Main.storyboard */; };
+		8375D78224AD12C100E4FC80 /* Bug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8375D78124AD12C000E4FC80 /* Bug.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,9 @@
 		8375D77824AD12A700E4FC80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8375D77A24AD12A700E4FC80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8375D77B24AD12A700E4FC80 /* SyncIsEscapingBug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SyncIsEscapingBug.entitlements; sourceTree = "<group>"; };
+		8375D78124AD12C000E4FC80 /* Bug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bug.swift; sourceTree = "<group>"; };
+		8375D78324AD163400E4FC80 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8375D78424AD16AC00E4FC80 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +41,8 @@
 		8375D76524AD12A600E4FC80 = {
 			isa = PBXGroup;
 			children = (
+				8375D78324AD163400E4FC80 /* README.md */,
+				8375D78424AD16AC00E4FC80 /* LICENSE.md */,
 				8375D77024AD12A600E4FC80 /* SyncIsEscapingBug */,
 				8375D76F24AD12A600E4FC80 /* Products */,
 			);
@@ -55,6 +61,7 @@
 			children = (
 				8375D77124AD12A700E4FC80 /* AppDelegate.swift */,
 				8375D77324AD12A700E4FC80 /* ViewController.swift */,
+				8375D78124AD12C000E4FC80 /* Bug.swift */,
 				8375D77524AD12A700E4FC80 /* Assets.xcassets */,
 				8375D77724AD12A700E4FC80 /* Main.storyboard */,
 				8375D77A24AD12A700E4FC80 /* Info.plist */,
@@ -133,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8375D78224AD12C100E4FC80 /* Bug.swift in Sources */,
 				8375D77424AD12A700E4FC80 /* ViewController.swift in Sources */,
 				8375D77224AD12A700E4FC80 /* AppDelegate.swift in Sources */,
 			);
@@ -272,7 +280,7 @@
 				CODE_SIGN_ENTITLEMENTS = SyncIsEscapingBug/SyncIsEscapingBug.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = HQ8TLN3UQR;
+				DEVELOPMENT_TEAM = UZAPXQTVQ4;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = SyncIsEscapingBug/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -292,7 +300,7 @@
 				CODE_SIGN_ENTITLEMENTS = SyncIsEscapingBug/SyncIsEscapingBug.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = HQ8TLN3UQR;
+				DEVELOPMENT_TEAM = UZAPXQTVQ4;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = SyncIsEscapingBug/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

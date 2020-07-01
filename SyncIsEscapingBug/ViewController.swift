@@ -13,15 +13,10 @@ class ViewController: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        let bug = Bug()
+        
+        bug.ok()    // this is fine
+        bug.crash() // this generates Swift runtime error; see Bug.swift
     }
-
-    override var representedObject: Any? {
-        didSet {
-        // Update the view, if already loaded.
-        }
-    }
-
-
+    
 }
-
